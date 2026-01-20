@@ -20,7 +20,7 @@ const Header = () => {
                         <div className="col-lg-9">
                             <div className="header-menu d-lg-block d-none">
                                 <ul className="mobail-menu d-flex">
-                                    <li><Link to='#'>Home +</Link>
+                                    <li><Link to='#'>Home</Link>
                                         {/* <ul className="submenu">
                                             <li><Link to='/'>Home Style 1</Link></li>
                                             <li><Link to='/home2'>Home Style 2</Link></li>
