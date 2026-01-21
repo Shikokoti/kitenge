@@ -1,65 +1,67 @@
-import React from 'react'
-const { useState, useEffect } = React;
+import React, { useState, useEffect } from 'react';
 
-const TimeCountDown = (props) => {
-  const [countdownDate] = useState(new Date('21/03/2026').getTime());
-  const [state, setState] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+const TimeCountDown = () => {
+  const countdownDate = new Date('2026-03-21T00:00:00').getTime();
+
+  const [time, setTime] = useState({
+    days: '0',
+    hours: '00',
+    minutes: '00',
+    seconds: '00',
   });
 
   useEffect(() => {
-    setInterval(() => setNewTime(), 1000);
-  }, []);
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
 
-  const setNewTime = () => {
-    if (countdownDate) {
-      const currentTime = new Date().getTime();
-
-      const distanceToDate = countdownDate - currentTime;
-
-      let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
-      let hours = Math.floor(
-        (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
-      );
-      let minutes = Math.floor(
-        (distanceToDate % (1000 * 60 * 60)) / (1000 * 60),
-      );
-      let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000);
-
-      const numbersToAddZeroTo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-      days = `${days}`;
-      if (numbersToAddZeroTo.includes(hours)) {
-        hours = `0${hours}`;
-      } else if (numbersToAddZeroTo.includes(minutes)) {
-        minutes = `0${minutes}`;
-      } else if (numbersToAddZeroTo.includes(seconds)) {
-        seconds = `0${seconds}`;
+      if (distance <= 0) {
+        clearInterval(interval);
+        setTime({
+          days: '0',
+          hours: '00',
+          minutes: '00',
+          seconds: '00',
+        });
+        return;
       }
 
-      setState({ days: days, hours: hours, minutes, seconds });
-    }
-  };
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (distance % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      setTime({
+        days: String(days),
+        hours: String(hours).padStart(2, '0'),
+        minutes: String(minutes).padStart(2, '0'),
+        seconds: String(seconds).padStart(2, '0'),
+      });
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [countdownDate]);
 
   return (
     <div className="react-countdown">
-      <div className='time-section'>
-        <div className='time'>{state.days || '0'}</div>
+      <div className="time-section">
+        <div className="time">{time.days}</div>
         <small className="time-text">Days</small>
       </div>
-      <div className='time-section'>
-        <div className='time'>{state.hours || '00'}</div>
+      <div className="time-section">
+        <div className="time">{time.hours}</div>
         <small className="time-text">Hours</small>
       </div>
-      <div className='time-section'>
-        <div className='time'>{state.minutes || '00'}</div>
+      <div className="time-section">
+        <div className="time">{time.minutes}</div>
         <small className="time-text">Min</small>
       </div>
-      <div className='time-section'>
-        <div className='time'>{state.seconds || '00'}</div>
+      <div className="time-section">
+        <div className="time">{time.seconds}</div>
         <small className="time-text">Sec</small>
       </div>
     </div>
@@ -67,4 +69,3 @@ const TimeCountDown = (props) => {
 };
 
 export default TimeCountDown;
-
