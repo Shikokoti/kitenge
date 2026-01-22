@@ -11,7 +11,7 @@
 }
 
 .item1{
-    background: url(../../images/slider/wd33.jpg);
+    background: url(../../images/slider/wd40.jpg);
     height: 950px;
     display: flex!important;
     justify-content: center;
@@ -41,7 +41,7 @@
 }
 .slide-content {
   text-align: center;
-  background: url(../../images/slider/1.png);
+  background: url(../../images/slider/34.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 540px;
