@@ -2,8 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import strory1 from '../../images/story/1.jpg'
 import strory2 from '../../images/story/2.jpg'
-import strory3 from '../../images/story/3.jpg'
-import strory4 from '../../images/story/4.jpg'
+import strory3 from '../../images/story/WD60.jpg'
+import strory4 from '../../images/story/wd61.jpg'
 import './style.css'
 
 
@@ -34,8 +34,8 @@ const Story = () =>{
                                             </div>
                                         </div>
                                         <h2>First time we met</h2>
-                                        <span className="date">July 20, 2017</span>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                                        <span className="date">Jan 2020</span>
+                                        <p>At the office during the interview porcess, Makena got the job</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
@@ -74,8 +74,8 @@ const Story = () =>{
                                             </div>
                                         </div>
                                         <h2>Our Marriage Proposal</h2>
-                                        <span className="date">Jan 10, 2018</span>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                                        <span className="date">Dec 12, 2022</span>
+                                        <p>It was beautiful Sunday evening full of suprises HAHA! </p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>

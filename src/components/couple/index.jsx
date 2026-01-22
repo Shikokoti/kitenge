@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
-import couple1 from '../../images/couple/img-1.jpg'
-import couple2 from '../../images/couple/img-2.jpg'
+import couple1 from '../../images/couple/wd51.jpg'
+import couple2 from '../../images/couple/wd50.jpg'
 import couple3 from '../../images/couple/2.png'
 import './style.css'
 
@@ -10,7 +10,7 @@ const Couple = () => {
     return(
         <div id="couple" className="about-wrap">
             <div className="couple-area section-padding pb-70">
-                <Sectiontitle section={'Happy Cuple'}/>
+                <Sectiontitle section={'Happy Couple'}/>
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">
@@ -21,7 +21,7 @@ const Couple = () => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>Michelle Makena</h3>
+                                            <h3>Michelle Makena.</h3>
                                             <p>Join us to our beautiful wedding celebration.</p>
                                         </div>
                                         {/* <div className="social-icon">
