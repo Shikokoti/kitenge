@@ -25,7 +25,7 @@ const Location = () => {
                             <div className="col-lg-7">
                                 <div className="ceromony-content">
                                     <h3>Wedding Ceremony</h3>
-                                    <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
+                                    <span>Saturday, 25 July 18, 9.00 AM-5.00 PM</span>
                                     <span>256 Apay Road,Califonia Bong, London</span>
                                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
                                     <LocationMap buttonClass={'location-btn'} />
