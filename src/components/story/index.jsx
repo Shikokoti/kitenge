@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import strory1 from '../../images/story/1.jpg'
-import strory2 from '../../images/story/2.jpg'
-import strory3 from '../../images/story/WD60.jpg'
+import strory1 from '../../images/story/wd63.jpg'
+import strory2 from '../../images/story/wd62.jpg'
+import strory3 from '../../images/story/WD63.jpg'
 import strory4 from '../../images/story/wd61.jpg'
 import './style.css'
 
@@ -34,7 +34,7 @@ const Story = () =>{
                                             </div>
                                         </div>
                                         <h2>First time we met</h2>
-                                        <span className="date">Jan 2020</span>
+                                        <span className="date">Jan 09 2020</span>
                                         <p>At the office during the interview porcess, Makena got the job</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
@@ -53,9 +53,9 @@ const Story = () =>{
                                                 </div>
                                             </div>
                                         </div>
-                                        <h2>Our First Date</h2>
+                                        <h2>Our First Date ❤️</h2>
                                         <span className="date">Dec 25, 2017</span>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                                        <p>We shared a banana in a Kibanda with some Romantic beas, Oh sorry Roscoco Beans 😂</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
@@ -75,7 +75,7 @@ const Story = () =>{
                                         </div>
                                         <h2>Our Marriage Proposal</h2>
                                         <span className="date">Dec 12, 2022</span>
-                                        <p>It was beautiful Sunday evening full of suprises HAHA! </p>
+                                        <p>It was beautiful Sunday evening full of suprises HAHA! 💍 </p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
@@ -94,8 +94,8 @@ const Story = () =>{
                                             </div>
                                         </div>
                                         <h2>Our Engagement</h2>
-                                        <span className="date">Jan 22, 2018</span>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                                        <span className="date">Dec 17, 2022</span>
+                                        <p>Did our traditional Wedding Ceremony with our families and friends 🤍.</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
