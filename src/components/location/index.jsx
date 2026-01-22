@@ -24,10 +24,10 @@ const Location = () => {
                             </div>
                             <div className="col-lg-7">
                                 <div className="ceromony-content">
-                                    <h3>Wedding Ceremony</h3>
-                                    <span>Saturday, 25 July 18, 9.00 AM-5.00 PM</span>
-                                    <span>256 Apay Road,Califonia Bong, London</span>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                                    <h3>Wedding Church Ceremony</h3>
+                                    <span>Saturday, 21 March 26, 9.00 AM-11.00 AM</span>
+                                    <span>Nairobi Kenya, Brookhaven Grounds</span>
+                                    <p>Come and celebrate with us!</p>
                                     <LocationMap buttonClass={'location-btn'} />
                                 </div>
                             </div>
@@ -38,10 +38,10 @@ const Location = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="ceromony-content ceromony-content2">
-                                <h3>Wedding Party</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                                <span>256 Apay Road,Califonia Bong, London</span>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                                <h3>Wedding Deco Reveal</h3>
+                                <span>Saturday, 21 March 26, 11.30 AM-12.30 PM</span>
+                                <span>Nairobi Kenya, Brookhaven Grounds</span>
+                                <p>Come and celebrate with us!</p>
                                 <LocationMap buttonClass={'location-btn'} />
                             </div>
                         </div>
