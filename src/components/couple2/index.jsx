@@ -11,7 +11,7 @@ const Couple2 = () => {
             <div className="container">
                 <div className="col-l2">
                     <div className="section-title text-center">
-                        <h2>Happy Cuple</h2>
+                        <h2>Happy Couple</h2>
                     </div>
                 </div>
                 <div className="couple-wrap">
@@ -44,7 +44,7 @@ const Couple2 = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 couple-single md-0">
                             <div className="couple-wrap2">
-                                <div className="couple-img3">
+                                <div className="couple-wd50">
                                      <img src={couple2} alt=""/>
                                 </div>
                                 <div className="couple-text">

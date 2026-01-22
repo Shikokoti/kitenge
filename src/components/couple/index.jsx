@@ -24,14 +24,14 @@ const Couple = () => {
                                             <h3>Michelle Makena</h3>
                                             <p>Join us to our beautiful wedding celebration.</p>
                                         </div>
-                                        <div className="social-icon">
+                                        {/* <div className="social-icon">
                                             <ul className="d-flex">
                                                 <li><Link to='/'><span className="fa fa-facebook"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-twitter"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-google-plus"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-linkedin"></span></Link></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -50,14 +50,14 @@ const Couple = () => {
                                             <h3>Ellis Lunayo</h3>
                                             <p>Hi I am Ellis Lunayo. Welcome to our D Day.</p>
                                         </div>
-                                        <div className="social-icon">
+                                        {/* <div className="social-icon">
                                             <ul className="d-flex">
                                                 <li><Link to='/'><span className="fa fa-facebook"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-twitter"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-google-plus"></span></Link></li>
                                                 <li><Link to='/'><span className="fa fa-linkedin"></span></Link></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
