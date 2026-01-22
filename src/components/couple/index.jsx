@@ -21,8 +21,8 @@ const Couple = () => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>NANCY ELIZABETH</h3>
-                                            <p>Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <h3>Michelle Makena</h3>
+                                            <p>Join us to our beautiful wedding celebration.</p>
                                         </div>
                                         <div className="social-icon">
                                             <ul className="d-flex">
@@ -47,8 +47,8 @@ const Couple = () => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>HARRY WILLIAM</h3>
-                                            <p>Hi I am Harry William. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <h3>Ellis Lunayo</h3>
+                                            <p>Hi I am Ellis Lunayo. Welcome to our D Day.</p>
                                         </div>
                                         <div className="social-icon">
                                             <ul className="d-flex">
