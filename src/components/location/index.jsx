@@ -1,8 +1,8 @@
 import React from 'react'
 import Sectiontitle from '../section-title'
-import strory1 from '../../images/events/1.jpg'
-import strory2 from '../../images/events/2.jpg'
-import strory3 from '../../images/events/3.jpg'
+import strory1 from '../../images/events/church.png'
+import strory2 from '../../images/events/Reception.png'
+import strory3 from '../../images/events/cake.png'
 import LocationMap from '../LocationModal/LocationModal'
 
 import './style.css'
@@ -38,7 +38,7 @@ const Location = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="ceromony-content ceromony-content2">
-                                <h3>Wedding Deco Reveal</h3>
+                                <h3>Reception</h3>
                                 <span>Saturday, 21 March 26, 11.30 AM-12.30 PM</span>
                                 <span>Nairobi Kenya, Brookhaven Grounds</span>
                                 <p>Come and celebrate with us!</p>
@@ -61,10 +61,10 @@ const Location = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="ceromony-content">
-                                <h3>Reception Party</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                                <span>256 Apay Road,Califonia Bong, London</span>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                                <h3>Family & Friends Speeches</h3>
+                                <span>Saturday, 21 March 26, 3.00 AM-5.30 PM</span>
+                                <span>Nairobi Kenya, Brookhaven Grounds</span>
+                                <p>Come and celebrate with us!</p>
                                 <LocationMap buttonClass={'location-btn'} />
                             </div>
                         </div>
