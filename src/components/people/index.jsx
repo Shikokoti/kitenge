@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 import Sectiontitle from "../section-title";
 
 import bride1 from "../../images/groomsmen-bridesmaid/groom.png";
-import bride2 from "../../images/groomsmen-bridesmaid/2.jpg";
-import bride3 from "../../images/groomsmen-bridesmaid/3.jpg";
-import bride4 from "../../images/groomsmen-bridesmaid/4.jpg";
-import bride5 from "../../images/groomsmen-bridesmaid/5.jpg";
-import bride6 from "../../images/groomsmen-bridesmaid/7.jpg";
-import bride7 from "../../images/groomsmen-bridesmaid/6.jpg";
-import bride8 from "../../images/groomsmen-bridesmaid/8.jpg";
-import bride9 from "../../images/groomsmen-bridesmaid/9.jpg";
-import bride10 from "../../images/groomsmen-bridesmaid/10.jpg";
+import bride2 from "../../images/groomsmen-bridesmaid/groom.png";
+import bride3 from "../../images/groomsmen-bridesmaid/groom.png";
+import bride4 from "../../images/groomsmen-bridesmaid/groom.png";
+import bride5 from "../../images/groomsmen-bridesmaid/bride.png";
+import bride6 from "../../images/groomsmen-bridesmaid/bride.png";
+import bride7 from "../../images/groomsmen-bridesmaid/bride.png";
+import bride8 from "../../images/groomsmen-bridesmaid/bride.png";
+import bride9 from "../../images/groomsmen-bridesmaid/bride.png";
+import bride10 from "../../images/groomsmen-bridesmaid/bride.png";
 
 import "./style.css";
 
@@ -68,8 +68,8 @@ const People = () => {
                             </div>
                           </div>
                           <div className="person-content">
-                            <h3>Mr Abraham</h3>
-                            <span>Best Friend</span>
+                            <h3>Brain Lunayo</h3>
+                            <span>Brother</span>
                           </div>
                         </div>
                       </div>
