@@ -46,8 +46,8 @@ const Rsvp = () => {
       form.events === "1"
         ? "All events"
         : form.events === "2"
-        ? "Wedding ceremony"
-        : "Reception party";
+          ? "Wedding ceremony"
+          : "Reception party";
 
     const message = `
 New RSVP 🎉
@@ -61,7 +61,7 @@ Message: ${form.notes}
 
     const phoneNumber = "254711638093"; // replace with your WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-      message
+      message,
     )}`;
 
     window.open(whatsappUrl, "_blank");
@@ -87,6 +87,7 @@ Message: ${form.notes}
                 <div className="section-title section-title4 text-center">
                   <h2>Be Our Guest</h2>
                   <p>Please reserve before March 5th, 2026.</p>
+                  <p>If you'll be reserving for more other guests please indicate their names on the message body</p>
                 </div>
               </div>
 
@@ -169,7 +170,6 @@ Message: ${form.notes}
                   </div>
                 </div>
               </form>
-
             </div>
           </div>
         </div>
