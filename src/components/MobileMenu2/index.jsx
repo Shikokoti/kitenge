@@ -58,10 +58,10 @@ export default class MobileMenu2 extends Component {
             <li><Link to="/home" onClick={this.menuHandler}>Story</Link></li>
             <li><Link to="/home" onClick={this.menuHandler}>People</Link></li>
             <li><Link to="/home" onClick={this.menuHandler}>Events</Link></li>
-            <li><Link to="/home" onClick={this.menuHandler}>Gallery</Link></li>
+            {/* <li><Link to="/home" onClick={this.menuHandler}>Gallery</Link></li> */}
             <li><Link to="/home" onClick={this.menuHandler}>Rsvp</Link></li>
-            <li><Link to="/blog" onClick={this.menuHandler}>Blog</Link></li>
-            <li><Link to="/blog-details" onClick={this.menuHandler}>Blog Details</Link></li>
+            {/* <li><Link to="/blog" onClick={this.menuHandler}>Blog</Link></li>
+            <li><Link to="/blog-details" onClick={this.menuHandler}>Blog Details</Link></li> */}
           </ul>
         </div>
 
