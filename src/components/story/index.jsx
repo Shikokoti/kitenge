@@ -35,7 +35,7 @@ const Story = () =>{
                                         </div>
                                         <h2>How we met</h2>
                                         <span className="date">Jan 09, 2020</span>
-                                        <p>At the office during the interview porcess, Makena got the job</p>
+                                        <p>We met in the most ordinary of moments, which quietly turned into something extraordinary.</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
@@ -53,9 +53,9 @@ const Story = () =>{
                                                 </div>
                                             </div>
                                         </div>
-                                        <h2>Our First Date ❤️</h2>
+                                        <h2>Our First Date </h2>
                                         <span className="date">Dec 25, 2017</span>
-                                        <p>We shared a banana in a Kibanda with some Romantic beas, Oh sorry Roscoco Beans 😂</p>
+                                        <p>We skipped the pressure and went straight to Milano’s for ice cream. Safe to say, it worked.</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
@@ -75,7 +75,8 @@ const Story = () =>{
                                         </div>
                                         <h2>Our Marriage Proposal</h2>
                                         <span className="date">Dec 12, 2022</span>
-                                        <p>It was beautiful Sunday evening full of suprises HAHA! 💍 </p>
+                                        <p>A Friday evening, our favorite people, and a moment we’ll cherish forever.
+ 💍 </p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
