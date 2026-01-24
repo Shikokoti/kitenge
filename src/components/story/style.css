@@ -270,3 +270,119 @@ Story-Area
 .story-area.story-style-2 a.theme-btn:hover{
     color: #9a8c40;
 }
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+
+  /* Stack timeline items vertically with spacing */
+  .story .item {
+    width: 100% !important;
+    float: none !important;
+    margin: 60px 0 !important; /* vertical spacing between cards */
+    position: relative;
+  }
+
+  /* Story content full width, center text */
+  .story .item .story-content {
+    width: 90% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    text-align: center !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: relative;
+  }
+
+  /* Remove arrows */
+  .story .item .story-content::before,
+  .story .item .story-content::after {
+    display: none !important;
+  }
+
+  /* Timeline line centered */
+  .story .content-wrapper::before {
+    left: 50% !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 4px !important;
+    transform: translateX(-50%);
+    background: #E8EFED;
+  }
+
+  /* Story icon as dot on timeline, vertically centered with card */
+  .story .story-icon {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    border-radius: 50%;
+    background: #5e9a8d;
+    border: 3px solid #fff;
+    z-index: 10;
+    display: none;
+  }
+
+  .story-icon span:before {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    color: #fff;
+  }
+
+  /* Hide the flaticon-birds-in-love span on mobile */
+  .story .story-icon .flaticon-birds-in-love {
+    display: none !important;
+  }
+
+  /* Headings, date, paragraph */
+  .story .story-content h2 {
+    font-size: 24px !important;
+    margin-bottom: 8px;
+  }
+
+  .story .story-content p {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+
+  .story .story-content .date {
+    font-size: 12px !important;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  /* Images responsive and centered */
+  .story .story-content .image-wrap img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Add spacing for first and last items */
+  .story .item:first-child {
+    margin-top: 40px !important;
+  }
+
+  .story .item:last-child {
+    margin-bottom: 40px !important;
+  }
+
+  /* Hide desktop-only decorations */
+  .story-top, .story-bottom {
+    display: none !important;
+  }
+
+  /* Center the "Read More" button */
+  .story .story-button {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+
