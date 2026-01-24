@@ -91,13 +91,13 @@
 
 @media (max-width: 767px) {
     .count-down-section h2>span {
-        font-size: 60px;
+        font-size: 40px;
         font-size: 1.11111rem;
     }
 }
 
 .section-area {
-    background: url(../../images/3.jpg) no-repeat center center / cover;
+    background: url(../../images/countdown1.jpg) no-repeat center center / cover;
     padding: 18px 0;
     position: relative;
     z-index: 1;
