@@ -11,7 +11,7 @@ const Couple2 = () => {
             <div className="container">
                 <div className="col-l2">
                     <div className="section-title text-center">
-                        <h2>Happy Couple</h2>
+                        <h2>Two Hearts, One Journey</h2>
                     </div>
                 </div>
                 <div className="couple-wrap">

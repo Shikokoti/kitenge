@@ -10,7 +10,7 @@ const Couple = () => {
     return(
         <div id="couple" className="about-wrap">
             <div className="couple-area section-padding pb-70">
-                <Sectiontitle section={'Happy Couple'}/>
+                <Sectiontitle section={'Two Hearts, One Journey'}/>
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">
