@@ -98,7 +98,7 @@ const Story = () =>{
                                         <span className="date">Dec 17, 2022</span>
                                         <p>On December 17th, 2022, we took another beautiful step toward 🤍.</p>
                                         <div className="story-button">
-                                            <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
+                                            {/* <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link> */}
                                         </div>
                                     </div>
                                 </div>
