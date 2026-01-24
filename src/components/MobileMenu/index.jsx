@@ -31,7 +31,7 @@ export default class MobileMenu extends Component {
           <div className="logo2">
             <h2>
               <Link to="/home" onClick={this.menuHandler}>
-                Harry & Nancy
+                Makena & Ellis
               </Link>
             </h2>
           </div>
