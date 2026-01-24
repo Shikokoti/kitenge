@@ -33,7 +33,7 @@ const Story = () =>{
                                                 </div>
                                             </div>
                                         </div>
-                                        <h2>First time we met</h2>
+                                        <h2>How we met</h2>
                                         <span className="date">Jan 09, 2020</span>
                                         <p>At the office during the interview porcess, Makena got the job</p>
                                         <div className="story-button">
