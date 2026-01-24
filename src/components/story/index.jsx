@@ -96,7 +96,7 @@ const Story = () =>{
                                         </div>
                                         <h2>Our Engagement</h2>
                                         <span className="date">Dec 17, 2022</span>
-                                        <p>Did our traditional Wedding Ceremony with our families and friends 🤍.</p>
+                                        <p>On December 17th, 2022, we took another beautiful step toward 🤍.</p>
                                         <div className="story-button">
                                             <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
                                         </div>
