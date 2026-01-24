@@ -78,7 +78,7 @@ const Story = () =>{
                                         <p>A Friday evening, our favorite people, and a moment we’ll cherish forever.
  💍 </p>
                                         <div className="story-button">
-                                            <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
+                                            {/* <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link> */}
                                         </div>
                                     </div>
                                 </div>
