@@ -37,7 +37,7 @@ const Story = () =>{
                                         <span className="date">Jan 09, 2020</span>
                                         <p>We met in the most ordinary of moments, which quietly turned into something extraordinary.</p>
                                         <div className="story-button">
-                                            <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
+                                            {/* <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link> */}
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ const Story = () =>{
                                         <span className="date">Dec 25, 2017</span>
                                         <p>We skipped the pressure and went straight to Milano’s for ice cream. Safe to say, it worked.</p>
                                         <div className="story-button">
-                                            <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
+                                            {/* <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link> */}
                                         </div>
                                     </div>
                                 </div>
