@@ -63,10 +63,10 @@ export default class MobileMenu extends Component {
             <li><AnchorLink href="#story" onClick={this.menuHandler}>Story</AnchorLink></li>
             <li><AnchorLink href="#people" onClick={this.menuHandler}>People</AnchorLink></li>
             <li><AnchorLink href="#event" onClick={this.menuHandler}>Events</AnchorLink></li>
-            <li><AnchorLink href="#gallery" onClick={this.menuHandler}>Gallery</AnchorLink></li>
+            {/* <li><AnchorLink href="#gallery" onClick={this.menuHandler}>Gallery</AnchorLink></li> */}
             <li><AnchorLink href="#rsvp" onClick={this.menuHandler}>Rsvp</AnchorLink></li>
-            <li><Link to="/blog" onClick={this.menuHandler}>Blog</Link></li>
-            <li><Link to="/blog-details" onClick={this.menuHandler}>Blog Details</Link></li>
+            {/* <li><Link to="/blog" onClick={this.menuHandler}>Blog</Link></li>
+            <li><Link to="/blog-details" onClick={this.menuHandler}>Blog Details</Link></li> */}
           </ul>
         </div>
 
