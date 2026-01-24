@@ -1,7 +1,7 @@
 import React from 'react'
 import Sectiontitle from '../section-title'
 import strory1 from '../../images/events/church.png'
-import strory2 from '../../images/events/Reception.png'
+import strory2 from '../../images/events/reception.png'
 import strory3 from '../../images/events/cake.png'
 import LocationMap from '../LocationModal/LocationModal'
 
