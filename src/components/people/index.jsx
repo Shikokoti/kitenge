@@ -34,12 +34,13 @@ const People = () => {
 
   // Bridesmaids Data
   const bridesmaids = [
-    { name: "Lily Brown", role: "Sister", img: bride1 },
-    { name: "Anna White", role: "Best Friend", img: bride2 },
-    { name: "Sophia Green", role: "Cousin", img: bride3 },
-    { name: "Emily Black", role: "Friend", img: bride4 },
-    { name: "Grace Adams", role: "Friend", img: bride5 },
-    { name: "Olivia King", role: "Friend", img: bride6 },
+    { name: "Tamara Mwendwa", role: "BRIDESMAID", img: bride1 },
+    { name: "⁠Faith Waqo Lunayo", role: "BRIDESMAID", img: bride2 },
+    { name: "Ruth Mwendwa", role: "BRIDESMAID", img: bride3 },
+    { name: "Ralia Adnaan Noor", role: "BRIDESMAID", img: bride4 },
+    { name: "Jane Muthama", role: "BRIDESMAID", img: bride5 },
+    { name: "Naomi Kinuthia", role: "BRIDESMAID", img: bride6 },
+    { name: "Marylin Chelimo", role: "BRIDESMAID", img: bride6 },
   ];
 
   return (
