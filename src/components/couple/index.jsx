@@ -22,7 +22,7 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Michelle Makena.</h3>
-                                            <p>Join us as we celebrate love, commitment, and the start of a beautiful journey together.</p>
+                                            <p>BRIDE</p>
                                         </div>
                                         {/* <div className="social-icon">
                                             <ul className="d-flex">
@@ -48,7 +48,7 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Ellis Lunayo</h3>
-                                            <p>Join us as we celebrate love, commitment, and the start of a beautiful journey together..</p>
+                                            <p>GROOM</p>
                                         </div>
                                         {/* <div className="social-icon">
                                             <ul className="d-flex">
