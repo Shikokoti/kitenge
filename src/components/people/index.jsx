@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Sectiontitle from "../section-title";
 
-import bride1 from "../../images/groomsmen-bridesmaid/1.jpg";
+import bride1 from "../../images/groomsmen-bridesmaid/groom.png";
 import bride2 from "../../images/groomsmen-bridesmaid/2.jpg";
 import bride3 from "../../images/groomsmen-bridesmaid/3.jpg";
 import bride4 from "../../images/groomsmen-bridesmaid/4.jpg";

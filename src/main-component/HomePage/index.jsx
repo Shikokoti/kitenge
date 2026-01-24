@@ -23,7 +23,7 @@ const Homepage = () => {
            <Couple/>
            <Welcome/>
            <Story/>
-           {/* <People/> */}
+           <People/>
            <Location/>
            {/* <Gallery/> */}
            <Rsvp/>
