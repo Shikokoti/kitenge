@@ -35,7 +35,7 @@ const People = () => {
   // Bridesmaids Data
   const bridesmaids = [
     { name: "Tamara Mwendwa", role: "BRIDESMAID", img: bride1 },
-    { name: "⁠Faith Waqo Lunayo", role: "BRIDESMAID", img: bride2 },
+    { name: "⁠Faith Waqo", role: "BRIDESMAID", img: bride2 },
     { name: "Sharon Lunayo", role: "BRIDESMAID", img: bride3 },
     { name: "Ralia Adaan Noor", role: "BRIDESMAID", img: bride4 },
     { name: "Jane Muthama", role: "BRIDESMAID", img: bride5 },
