@@ -54,7 +54,7 @@ const Story = () =>{
                                             </div>
                                         </div>
                                         <h2>Our First Date </h2>
-                                        <span className="date">Dec 25, 2017</span>
+                                        <span className="date">April 25, 2020</span>
                                         <p>We skipped the pressure and went straight to Milano’s for ice cream. Safe to say, it worked.</p>
                                         <div className="story-button">
                                             {/* <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link> */}
