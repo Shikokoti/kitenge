@@ -25,10 +25,10 @@ const People = () => {
   const groomsmen = [
     { name: "Brian Lunayo", role: "GROOMSMAN", img: groom1 },
     { name: "Abdi Aziz Noor", role: "GROOMSMAN", img: groom2 },
-    { name: "Rashid Mnakara", role: "GROOMSMAN", img: groom3 },
+    { name: "Rashid Mbakara", role: "GROOMSMAN", img: groom3 },
     { name: "Mitch Okello", role: "GROOMSMAN", img: groom4 },
     { name: "Stephen Muthama", role: "GROOMSMAN", img: groom5 },
-    { name: "Erick Haul", role: "GROOMSMAN", img: groom6 },
+    { name: "Erick Houl", role: "GROOMSMAN", img: groom6 },
     { name: "Diego Harkamisco", role: "GROOMSMAN", img: groom6 },
   ];
 
@@ -36,11 +36,11 @@ const People = () => {
   const bridesmaids = [
     { name: "Tamara Mwendwa", role: "BRIDESMAID", img: bride1 },
     { name: "⁠Faith Waqo Lunayo", role: "BRIDESMAID", img: bride2 },
-    { name: "Ruth Mwendwa", role: "BRIDESMAID", img: bride3 },
-    { name: "Ralia Adnaan Noor", role: "BRIDESMAID", img: bride4 },
+    { name: "Sharon Lunayo", role: "BRIDESMAID", img: bride3 },
+    { name: "Ralia Adaan Noor", role: "BRIDESMAID", img: bride4 },
     { name: "Jane Muthama", role: "BRIDESMAID", img: bride5 },
     { name: "Naomi Kinuthia", role: "BRIDESMAID", img: bride6 },
-    { name: "Marylin Chelimo", role: "BRIDESMAID", img: bride6 },
+    { name: "Maryline Chelimo", role: "BRIDESMAID", img: bride6 },
   ];
 
   return (
