@@ -25,7 +25,7 @@ const Location = () => {
                             <div className="col-lg-7">
                                 <div className="ceromony-content">
                                     <h3>Wedding Church Ceremony</h3>
-                                    <span>Saturday, 21 March 26, 10.00 AM-11.00 AM</span>
+                                    <span>Saturday, 21 March 26, 10.00 AM-12.00 PM</span>
                                     <span>Nairobi Kenya, Brookhaven Grounds</span>
                                     <p>Come and celebrate with us!</p>
                                     <LocationMap buttonClass={'location-btn'} />
@@ -62,7 +62,7 @@ const Location = () => {
                         <div className="col-lg-7">
                             <div className="ceromony-content">
                                 <h3>Cake Cutting</h3>
-                                <span>Saturday, 21 March 26, 4.30 PM-5.30 PM</span>
+                                <span>Saturday, 21 March 26, 4.30 PM-6.00 PM</span>
                                 <span>Nairobi Kenya, Brookhaven Grounds</span>
                                 <p>Come and celebrate with us!</p>
                                 <LocationMap buttonClass={'location-btn'} />
