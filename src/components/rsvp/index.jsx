@@ -36,7 +36,7 @@ Message:
 ${form.notes}
 `;
 
-    const phoneNumber = ["2547104483117"]; // replace with your WhatsApp number
+    const phoneNumber = ["254704483117"]; // replace with your WhatsApp number
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
       "_blank"
