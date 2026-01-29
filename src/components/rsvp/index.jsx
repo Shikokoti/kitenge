@@ -59,7 +59,9 @@ ${form.notes}
             <div className="rsvp-wrap">
               <div className="section-title text-center">
                 <h2>Be Our Guest</h2>
-                <p>Please reserve before March 5th, 2026.</p>
+                <p>Please reserve before March 5th, 2026.
+                  <p>While we love your little ones, we kindly ask that our wedding be an adults-only celebration. We hope this gives you the chance to relax and enjoy the day with us.</p>
+                </p>
               </div>
 
               <form onSubmit={submitHandler}>
